@@ -22,7 +22,7 @@ A modern, responsive weather app built with **React**, **TypeScript**, and **Mat
 
 ## Demo
 
-Live demo: [https://weatherly-three-self.vercel.app](https://your-demo-link.com)
+Live demo: [https://weatherly-three-self.vercel.app]([https://your-demo-link.com](https://weatherly-three-self.vercel.app/))
 
 ## Features
 
