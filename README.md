@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+# Weatherly 🌤️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Available Scripts
+A modern, responsive weather app built with **React**, **TypeScript**, and **Material UI**. Instantly search for cities and receive live weather updates in a glassmorphism design with dark mode support.
 
-In the project directory, you can run:
+<p align="center">
+  <img src="./screenshot.png" alt="Weatherly Screenshot" width="600" />
+</p>
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Demo](#demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Demo
 
-### `npm test`
+Live demo: [https://your-demo-link.com](https://your-demo-link.com)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
 
-### `npm run build`
+- 📡 Real-time city search with autocomplete
+- 🎨 Glassmorphism UI & fully responsive layout
+- 🌙 Light & Dark mode toggle
+- 📈 Animated weather transitions (Framer Motion)
+- 🔄 Smooth loading & error handling states
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React** & **TypeScript**
+- **Material UI** for components & theming
+- **Axios** for HTTP requests
+- **Framer Motion** for animations
+- **WeatherAPI.com** for weather data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/weatherly.git
+   cd weatherly
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Create a `.env` file from the example and add your WeatherAPI key:
+   ```bash
+   cp .env.example .env
+   ```
+4. Start the development server:
+   ```bash
+   npm start
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Configuration
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Rename `.env.example` to `.env` and update:
+```env
+REACT_APP_WEATHER_API_KEY=YOUR_WEATHERAPI_KEY
+```
+Sign up at [WeatherAPI.com](https://www.weatherapi.com/) for a free key.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Usage
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Type a city name (e.g., "New York") in the search bar.
+2. Select from autocomplete suggestions.
+3. View current weather details and enjoy smooth animations.
 
-## Learn More
+## Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines and code standards.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
+
+## Author
+
+Created with ❤️ by Your Name.
