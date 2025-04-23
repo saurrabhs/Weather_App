@@ -5,7 +5,7 @@
 A modern, responsive weather app built with **React**, **TypeScript**, and **Material UI**. Instantly search for cities and receive live weather updates in a glassmorphism design with dark mode support.
 
 <p align="center">
-  <img src="./Demo/image.png" alt="Weatherly Screenshot" width="600" />
+  <img src="./Demo/image.png" alt="Weatherly Screenshot" width="300" />
 </p>
 
 ## Table of Contents
